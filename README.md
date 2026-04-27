@@ -13,6 +13,12 @@ This is a personal project written in python, pulling in the following libraries
 - termcolor (for console styling/coloring)
 
 # How to run
+## Method 1
+- Open the dist\server directory and run `server.exe`
+- Open the dist\client directory and run `client.exe`
+
+## Method 2
+- run `pip install termcolor`
 - cd to the project directory and run `py server.py`
 - In another instance run `py client.py`, and the client will attempt to connect to the server.
 - The default IP is `localhost` or `127.0.0.1`. You can change that by simply editing the `connect_to` variable in `client.py` to another IPv4 address.
